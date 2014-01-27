@@ -1,0 +1,11 @@
+def linear_search(l,r):
+    '''linear_search(list,int) --> int
+    returns the index of list at which object is present'''
+    
+    i = 0
+    while i < len(l):
+        if l[i] == r:
+            return i
+        else:
+            i += 1
+    return 'not here buddy! ;)'
