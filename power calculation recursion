@@ -1,0 +1,9 @@
+def powerCalculator(a,b):
+    'as in a^b. b is a positive integer'
+
+    if b == 0:
+        return 1
+    else:
+        return a * powerCalculator(a,b-1)
+            
+    return result
